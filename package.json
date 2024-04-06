@@ -1,0 +1,36 @@
+{
+  "name": "02---rotas-e-http",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/server.ts",
+    "knex": "node --no-warnings --import tsx ./node_modules/knex/bin/cli.js",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts --fix",
+    "build": "tsup src -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^20.11.30",
+    "@types/supertest": "^6.0.2",
+    "eslint": "^8.57.0",
+    "supertest": "^6.3.4",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3",
+    "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^9.3.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.2",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.22.4"
+  }
+}

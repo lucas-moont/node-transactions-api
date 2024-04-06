@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "@rocketseat/eslint-config/node",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": "off" // Desativa a regra do Prettier
+  }
+}
